@@ -1,16 +1,17 @@
 -- Заповнення таблиці drivers
-INSERT INTO drivers (driver_id, driver_forename, driver_surname, driver_number)
+INSERT INTO drivers (driver_id, driver_forename, driver_surname, driver_number, driver_nationality)
 VALUES
-  (1, 'Lewis', 'Hamilton', 44),
-  (847, 'George', 'Russel', 63),
-  (830, 'Max', 'Versteppen', 33),
-  (815, 'Sergio', 'Perez', 11),
-  (844, 'Charles', 'Leclerc', 16),
-  (832, 'Carlos', 'Sainz', 55),
-  (846, 'Lando', 'Norris', 4),
-  (857, 'Oscar', 'Piastri', 81),
-  (840, 'Lance', 'Stroll', 18),
-  (4, 'Fernando', 'Alonso', 14);
+  (1, 'Lewis', 'Hamilton', 44, 'British'),
+  (847, 'George', 'Russel', 63, 'British'),
+  (830, 'Max', 'Versteppen', 33, 'Dutch'),
+  (815, 'Sergio', 'Perez', 11, 'Mexican'),
+  (844, 'Charles', 'Leclerc', 16, 'Monegasque'),
+  (832, 'Carlos', 'Sainz', 55, 'Spanish'),
+  (846, 'Lando', 'Norris', 4, 'British'),
+  (857, 'Oscar', 'Piastri', 81, 'Australian'),
+  (840, 'Lance', 'Stroll', 18, 'Canadian'),
+  (4, 'Fernando', 'Alonso', 14, 'Spanish');
+  
   
   -- Заповнення таблиці constructors
 INSERT INTO constructors (constructor_id, constructor_name)
