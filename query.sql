@@ -10,7 +10,7 @@ SELECT race_name, driver_surname AS winer, constructor_name
 	WHERE final_position = 1
 ORDER BY race_name;
 
--- Вивести пілота з найбільшою кількістю балів
+-- Вивести пілота з найменшою кількістю балів
 SELECT driver_forename, driver_surname, driver_number, points AS max_value
 	FROM drivers NATURAL JOIN  results
 	WHERE points = (SELECT MIN(points) FROM results)
