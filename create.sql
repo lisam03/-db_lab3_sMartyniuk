@@ -4,6 +4,7 @@ CREATE TABLE drivers
   driver_forename VARCHAR(100) NOT NULL,
   driver_surname VARCHAR(100) NOT NULL,
   driver_number INT,
+  driver_nationality VARCHAR(100),
   PRIMARY KEY (driver_id)
 );
 
